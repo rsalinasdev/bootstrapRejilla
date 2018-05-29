@@ -2,12 +2,13 @@
   background: gray;
 }
 
-.navbar-fixed-top{
-  height: 10%;
+.navbar-inverse{
+  min-height: 10%;
   background: lightblue;
+  border: none;
 }
 
-.container{
+.container-fluid{
   margin-top: 64px;
 }
 
@@ -15,7 +16,7 @@
   background: gray;
   min-height: 500px;
   margin-bottom: 0;
-  border-radius: 0;
+  border-radius: 0px !important;
 }
 
 .titulo-cartelera{
@@ -39,9 +40,24 @@
   border-color: blue;
 }
 
+.left-column{
+  border-right: 1px dashed brown;
+}
+
 
 @media (max-width: 770px) {
   .right-column{
-    
+    display: none;
+  }
+  .movies-row{
+    min-height: 250px;
+  }
+
+  .movies-column{
+    min-height: 230px;
+  }
+
+  .jumbotron{
+    min-height: 350px;
   }
 }
