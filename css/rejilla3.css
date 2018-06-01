@@ -1,5 +1,15 @@
 .cinema-body{
-  background: gray;
+  background: url("../images/back1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.logo-img{
+  height: 8em;
+  border: 1px black solid;
 }
 
 .navbar-inverse{
@@ -13,7 +23,10 @@
 }
 
 .jumbotron{
-  background: gray;
+  background: url("../images/movie.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   min-height: 500px;
   margin-bottom: 0;
   border-radius: 0px !important;
@@ -25,7 +38,8 @@
 }
 
 .movies-row{
-  background-color: yellow;
+  background-color: red;
+  opacity: 0.8;
   min-height: 350px;
   padding-left: 15px;
   padding-right: 15px;
@@ -44,6 +58,39 @@
   border-right: 1px dashed brown;
 }
 
+
+.welcome-title{
+  color: white;
+  margin-right: 10px;
+}
+
+.jumbotron-img{
+  margin-top: 20px;
+  height: 15em;
+}
+
+.jumbotron-text{
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+
+.redes-sociales{
+  margin-top: 20px;
+}
+
+.img-social{
+  height: 40px;
+  width: 40px;
+}
+
+.titulo-text{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-opacity: 0.2;
+}
 
 @media (max-width: 770px) {
   .right-column{
